@@ -1,0 +1,24 @@
+#spring.application.name=journalApp
+#spring.data.mongodb.host=localhost
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.uri=mongodb+srv://tushar:tuktuk18@cluster0.47jl8u4.mongodb.net/?appName=Cluster0
+#spring.data.mongodb.database=journaldb
+#spring.data.mongodb.auto-index-creation=true
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tushar:tuktuk18@cluster0.47jl8u4.mongodb.net/?appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 8001
+  servlet:
+    context-path: /journalApp
+
+
+weather_api_key: 4dc16c59d0fb6e9455c297d960daf991
+
+
+
