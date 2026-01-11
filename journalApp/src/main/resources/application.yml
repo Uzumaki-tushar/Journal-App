@@ -11,6 +11,17 @@ spring:
       uri: mongodb+srv://tushar:tuktuk18@cluster0.47jl8u4.mongodb.net/?appName=Cluster0
       database: journaldb
       auto-index-creation: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: tushar2471.be22@chitkar.edu.in
+    password: mgra vbhc uiyp bddk
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
 server:
   port: 8001
